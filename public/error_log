@@ -1,0 +1,60 @@
+[08-Oct-2019 11:46:02 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/grytsyks/public_html/BlogNews/public/index.php on line 18
+[08-Oct-2019 22:45:42 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainaddController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainadd/add')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 22:46:42 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/edit...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 22:50:20 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/edit...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 22:50:21 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/edit...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 22:50:24 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainaddController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainadd/add')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 23:07:30 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/edit...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 23:08:52 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/dele...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 23:11:44 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Exception' with message 'Контроллер <b>app\controllers\MainupdateController</b> не найден' in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php:100
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('mainupdate/dele...')
+#1 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/core/Router.php on line 100
+[08-Oct-2019 23:16:26 Europe/Moscow] PHP Fatal error:  Uncaught exception 'RedBeanPHP\RedException' with message 'OODB Store requires a bean, got: object' in /home/grytsyks/public_html/BlogNews/vendor/libs/rb.php:8805
+Stack trace:
+#0 /home/grytsyks/public_html/BlogNews/vendor/libs/rb.php(9073): RedBeanPHP\OODB->unboxIfNeeded(Object(app\models\Main))
+#1 /home/grytsyks/public_html/BlogNews/vendor/libs/rb.php(11754): RedBeanPHP\OODB->store(Object(app\models\Main))
+#2 /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php(47): RedBeanPHP\Facade::store(Object(app\models\Main))
+#3 /home/grytsyks/public_html/BlogNews/vendor/core/Router.php(94): app\controllers\UpdateController->updateAction()
+#4 /home/grytsyks/public_html/BlogNews/public/index.php(33): vendor\core\Router::dispatch('update/update&u...')
+#5 {main}
+  thrown in /home/grytsyks/public_html/BlogNews/vendor/libs/rb.php on line 8805
+[08-Oct-2019 23:18:23 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:27:54 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:30:02 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:33:01 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:35:52 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:55:29 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[08-Oct-2019 23:56:11 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/BlogNews/app/controllers/UpdateController.php on line 41
+[09-Oct-2019 07:53:57 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/blognews/app/controllers/UpdateController.php on line 41
+[09-Oct-2019 08:10:00 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/blognews/app/controllers/UpdateController.php on line 41
+[09-Oct-2019 08:34:13 Europe/Moscow] PHP Notice:  Undefined index: id in /home/grytsyks/public_html/blognews/app/controllers/UpdateController.php on line 41
